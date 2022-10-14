@@ -30,6 +30,10 @@ header {
 .menu-list li {
     padding: 0 5px;
 }
+.logo {
+    padding: 0%;
+    width: fit-content;
+}
 /* main */
 /* heading */
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +51,14 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper img{
     display: block;
     margin: 15px auto;
+    align-content: center;
 }
 .wrapper p {
     text-align: center;
+}
+#resume {
+    text-align: center;
+}
+#projects {
+    align-content: center;
 }
