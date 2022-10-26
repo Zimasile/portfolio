@@ -2,63 +2,87 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
-/* header, main, footer */
-header, main, footer {
-    min-width: 100%;
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.postimg.cc/SjFyjR79/5e469a5f90b1c614158410.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-/* header */
-header {
-    display: inline-flex;
-    justify-content: space-between;
-    background-color: darkgray;
-}
-.logo {
-    width: 3em;
+.menu {
+    height: fit-content;
+    width: 100vw;
+
 }
 /* Place the menu to the right of the page. */
-.menu {
-    /* margin: auto 0; */
-    align-items: flex-end;
-    margin: 5px 10px 0;
-}
-.menu-list {
-    display: inline-flex;
-    list-style: none;
-}
-.menu-list li {
-    padding: 0 5px;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 7%;
+    padding-left: 7%;
+    width: 100vw;
 }
 .logo {
-    padding: 0%;
-    width: fit-content;
+    color:white;
+    font-size: 25px;
+
 }
-/* main */
-/* heading */
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    margin-bottom: 15px;
+span{
+    color: lime;
 }
-/* home */
-#home {
-    background-color: rgba(106, 115, 92, .7);
+ul, li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
 }
-.wrapper {
-    min-height: 100vh;
-    align-content: center;
+nav, li, a {
+    text-decoration: none;
+    text-transform: capitalize;
 }
-.wrapper img{
+a{
     display: block;
-    margin: 15px auto;
-    align-content: center;
 }
-.wrapper p {
+/* unvisited link */
+a:link {
+    color: lime;
+}
+/* Mouse over link */
+a:hover {
+    transition: 1s;
+    color: rgb(249, 41, 75);
+}
+a:hover {
+    transition: 1s;
+    scale : 1.2;
+}
+a:visited {
+    color: lightcoral;
+}
+p {
     text-align: center;
+    color: lime;
+    font-weight: bold;
 }
-#resume {
-    text-align: center;
+h2 {
+    color: white;
+    justify-content: center;
 }
-#projects {
-    align-content: center;
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.home {
+    justify-content: center;
+}
+.content {
+    color: whitesmoke;
+    justify-content: center;
 }
