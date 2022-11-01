@@ -34,7 +34,7 @@ nav{
 
 }
 span{
-    color: deeppink;
+    color: purple;
     box-shadow: 3em 4rem 20rem;
 }
 ul, li {
@@ -63,11 +63,11 @@ a:hover {
     scale : 1.2;
 }
 a:visited {
-    color: deepskyblue;
+    color: purple;
 }
 p {
     text-align: center;
-    color: deeppink;
+    color: black;
     font-weight: bold;
 }
 h2 {
@@ -96,13 +96,14 @@ main {
     padding-bottom: 1700px;
 } */
 
-@media screen and (max-width: 720px;) {
+@media screen and (min-width: 300px) and (max-width: 720px) {
     body {
         width: 100px;
         height: 100px;
     }
     main, img {
-        width: 100%;
+        /* width: 100%; */
+        transform: scale(0.53);
     }
     
 }
