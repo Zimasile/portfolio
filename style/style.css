@@ -65,6 +65,9 @@ a:hover {
 a:visited {
     color: purple;
 }
+.nav-bar {
+    position: static;
+}
 p {
     text-align: center;
     color: black;
@@ -80,7 +83,7 @@ main {
     display: flex;
     justify-content: center;
 }
-.contente {
+.square {
     padding-left: 20px;
     padding-top: 150px;
 }
@@ -88,22 +91,56 @@ main {
     justify-content: center;
 }
 .content {
-    color: whitesmoke;
+    color: black;
     justify-content: center;
 }
 /* .lead {
     padding-left: 900px;
     padding-bottom: 1700px;
 } */
-
-@media screen and (min-width: 300px) and (max-width: 720px) {
-    body {
-        width: 100px;
-        height: 100px;
-    }
-    main, img {
-        /* width: 100%; */
+.about {
+    width: 100%;
+    padding: 100px;
+    background-color: antiquewhite;
+}
+.about, img {
+    height: auto;
+    width: 500px;
+}
+.about-text {
+    width: 500px;
+}
+.about-text {
+    font-size: medium;
+    text-transform: capitalize;
+}
+.about-text, p {
+    border: 1px;
+    border-radius: 1%;
+    border-color: 1px;
+}
+/* p.double {
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+} */
+.main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.progress-bar {
+    color: black;
+}
+/* .Testimonials {
+    display: flex;
+} */
+@media screen and (max-width: 1080px) {
+    header {
         transform: scale(0.53);
     }
-    
+    body {
+        transform: scale(0.50);
+    }
 }
